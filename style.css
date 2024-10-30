@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  gap: 25px;
+}
+
+.main {
+  border: 1px #000 dashed;
+}
+
+.grid-block {
+  width: 12px;
+  height: 12px;
+  background-color: #D3D3D3;
+}
+
+.container-block {
+  display: flex;
+}
+
+.when-hover {
+  background-color: #000;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons button {
+  width: 100px;
+  font-size: 20px;
+  padding: 16px 0;
+}
